@@ -1,1 +1,98 @@
-
+namespace mqlib {
+    export function tftTLightInit() {
+        RBTFT18.drawRectangle(
+            35,
+            0,
+            58,
+            160,
+            Color.Orange
+        )
+        //red
+        RBTFT18.drawCircle(
+            64,
+            25,
+            22,
+            Color.White
+        )
+        RBTFT18.drawCircle(
+            64,
+            25,
+            20,
+            Color.Red
+        )
+        //yellow
+        RBTFT18.drawCircle(
+            64,
+            75,
+            22,
+            Color.White
+        )
+        RBTFT18.drawCircle(
+            64,
+            75,
+            20,
+            Color.Black
+        )
+        //green
+        RBTFT18.drawCircle(
+            64,
+            125,
+            22,
+            Color.White
+        )
+        RBTFT18.drawCircle(
+            64,
+            125,
+            20,
+            Color.Black
+        )
+    }
+    export function tftTLightRed2Black() {
+        RBTFT18.drawCircle(
+            64,
+            25,
+            20,
+            Color.Black
+        )
+    }
+    export function tftTLightRed2Red() {
+        RBTFT18.drawCircle(
+            64,
+            25,
+            20,
+            Color.Red
+        )
+    }
+    export function tftTLightYellow2Black() {
+        RBTFT18.drawCircle(
+            64,
+            75,
+            20,
+            Color.Black
+        )
+    }
+    export function tftTLightYellow2Yellow() {
+        RBTFT18.drawCircle(
+            64,
+            75,
+            20,
+            Color.Yellow
+        )
+    }
+    export function tftTLightGreen2Black() {
+        RBTFT18.drawCircle(
+            64,
+            125,
+            20,
+            Color.Black
+        )
+    }
+    export function tftTLightGreen2Green() {
+        RBTFT18.drawCircle(
+            64,
+            125,
+            20,
+            Color.Red
+        )
+    }
+}
